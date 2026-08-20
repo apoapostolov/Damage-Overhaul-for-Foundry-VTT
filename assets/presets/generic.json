@@ -1,0 +1,20 @@
+{
+    "bleeding": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "burning": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "cursed": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "diseased": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "exhausted": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "frightened": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "incapacitated": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "paralyzed": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "petrified": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "poisoned": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "prone": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "restrained": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "stunned": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "unconscious": { "apply": "#ef9a9a", "remove": "#a5d6a7" },
+    "blessed": { "apply": "#a5d6a7", "remove": "#f5f5f0" },
+    "hasted": { "apply": "#a5d6a7", "remove": "#f5f5f0" },
+    "invisible": { "apply": "#90caf9", "remove": "#f5f5f0" },
+    "raging": { "apply": "#90caf9", "remove": "#f5f5f0" }
+}

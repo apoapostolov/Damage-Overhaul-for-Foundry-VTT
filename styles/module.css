@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "ScrollingTextsPixel";
+    src: url("../assets/fonts/PressStart2P-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Press2P";
+    src: url("../assets/fonts/PressStart2P-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+#settings-config h3.damage-overhaul-header {
+    flex: 0 0 auto;
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    margin: 1.1rem 0 0.55rem;
+    padding: 0.4rem 0 0.45rem;
+    border: 0;
+    border-bottom: 1px solid var(--color-border-light-primary, var(--color-border));
+    background: none;
+    color: var(--color-text-primary, var(--color-text-dark-header));
+    font-family: var(--font-h3, var(--font-serif, serif));
+    font-size: var(--font-size-16);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+#settings-config h3.damage-overhaul-header:first-child,
+#settings-config .tab > h3.damage-overhaul-header:first-of-type {
+    margin-top: 0.2rem;
+}
