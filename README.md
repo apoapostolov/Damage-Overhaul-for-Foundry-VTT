@@ -5,13 +5,22 @@
   </a>
 </div>
 
-# Damage Overhaul
+<div align="center">
 
-for Foundry VTT
+  <h1>Damage Overhaul</h1>
 
-[![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v14-7b68ee)](https://foundryvtt.com/)
-[![Latest release](https://img.shields.io/github/v/release/apoapostolov/Damage-Overhaul-for-Foundry-VTT?sort=semver)](https://github.com/apoapostolov/Damage-Overhaul-for-Foundry-VTT/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+  <p>Make damage, healing, and conditions visible to the whole table as they happen.</p>
+
+  <p>
+    <a href="https://github.com/ApoApostolov/Damage-Overhaul-for-Foundry-VTT"><img src="https://img.shields.io/badge/Type-Foundry%20module-555" alt="Type: Foundry module"></a>
+    <a href="https://github.com/ApoApostolov/Damage-Overhaul-for-Foundry-VTT"><img src="https://img.shields.io/badge/Language-JavaScript-555" alt="Primary language: JavaScript"></a>
+    <a href="https://github.com/ApoApostolov/Damage-Overhaul-for-Foundry-VTT/releases/latest"><img src="https://img.shields.io/github/v/release/ApoApostolov/Damage-Overhaul-for-Foundry-VTT" alt="Latest stable release version"></a>
+    <a href="https://github.com/ApoApostolov/Damage-Overhaul-for-Foundry-VTT/releases/latest"><img src="https://img.shields.io/github/release-date/ApoApostolov/Damage-Overhaul-for-Foundry-VTT?display_date=published_at&amp;label=last%20release" alt="Published date of latest stable release"></a>
+    <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-555" alt="License: MIT"></a>
+  </p>
+
+</div>
+
 
 When a hit lands, everyone should see it. Damage Overhaul puts damage, healing,
 and condition announcements near a token's feet, with a bounce that reads
