@@ -13,19 +13,21 @@ for Foundry VTT
 [![Latest release](https://img.shields.io/github/v/release/apoapostolov/Damage-Overhaul-for-Foundry-VTT?sort=semver)](https://github.com/apoapostolov/Damage-Overhaul-for-Foundry-VTT/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Damage Overhaul replaces Foundry's default floating damage and condition text with a readable bounce that starts at the
-token's feet. Damage, healing, and conditions use distinct colors. System presets keep common condition names consistent
-at the table.
+When a hit lands, everyone should see it. Damage Overhaul puts damage, healing,
+and condition announcements near a token's feet, with a bounce that reads
+clearly during a busy fight. Colors distinguish harm, recovery, and conditions.
+Choose a preset for D&D 5e or Pathfinder 2e, or use the generic preset in any
+system.
 
 ## What's New in 14.0.0
 
-- The module is now a native Foundry v14 package named `damage-overhaul`.
-- Overhaul mode restores the signature launch, drop, rebound, and settle motion.
-- Announcements start at the token's lower edge instead of the canvas center.
-- D&D 5e, Pathfinder 2e, and generic condition presets use the new structured JSON format.
-- Standard mode restores Foundry's native scrolling text when you need the core behavior.
+This Foundry v14 release brings back the bounce from Scrolling Texts, places
+announcements where you can connect them to the creature, and gives GMs a
+choice between the new animation and Foundry's standard scrolling text. It
+uses a new module ID; read the [upgrade notes](#compatibility) before replacing
+the old package.
 
-## Features
+## What you can do
 
 - **Bounce that reads as impact.** Damage and condition announcements launch upward, drop past their anchor, rebound, settle,
   and fade out.
@@ -39,8 +41,8 @@ at the table.
   preset.
 - **Custom JSON presets.** Select a JSON file from Foundry's File Picker. A loaded custom file overrides the built-in condition
   preset.
-- **Performance controls.** Use the lighter animation path and limit the number of announcements that can remain active
-  at once.
+- **Keep a crowded fight readable.** Use the lighter animation path and limit
+  the number of announcements on screen at once.
 - **Native fallback.** Switch Announcement Mode to Standard without disabling the module.
 - **Extension API.** Other modules can register announcement strategies and expose them in the setting.
 
